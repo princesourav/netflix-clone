@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+
+.main{
+    background-image: url(assets/bg-image.jpg);
+    height: 80vh;
+    position: relative;
+}
+
+.main-box{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 70vw;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+
+}
+
+nav img{
+    height: 40px;
+    color: red;
+}
+
+.button{
+    padding: 6px 18px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.768);
+    color: white;
+    z-index: 10;
+    position: relative;
+}
+
+.red{
+    background-color: red;
+}
+
+.sign{
+    
+}
